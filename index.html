@@ -559,7 +559,7 @@
 <script>
   // EmailJS — initialize with your public key
   // To activate: sign up at emailjs.com, create a service + template, replace the keys below
-  emailjs.init("YOUR_PUBLIC_KEY"); // ← replace with your EmailJS public key
+  emailjs.init("oO7TWKsX2CzKSbCap"); // ← replace with your EmailJS public key
 
   // Scroll animations
   const obs = new IntersectionObserver((entries) => {
@@ -588,7 +588,7 @@
 
     try {
       // EmailJS send — replace SERVICE_ID and TEMPLATE_ID with your values
-      await emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+      await emailjs.send("service_k05hyh9", "template_3m5yy7e", {
         from_name:  `${data.firstName} ${data.lastName}`,
         practice:   data.practice,
         specialty:  data.specialty,
